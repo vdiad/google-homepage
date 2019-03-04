@@ -1,0 +1,294 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* My Code */
+
+body{
+  font-family: sans-serif, arial;
+}
+
+.main-nav{
+  display: flex;
+  font-size: 0.85em;
+  color: rgba(0,0,0,0.75);
+  justify-content: space-between;
+}
+
+.left-nav {
+
+}
+
+
+.left-nav ul{
+  margin-left: 20px;
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.right-nav ul{
+  height: 60px;
+  display: flex;
+  width: 250px;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+
+}
+.right-nav ul li{
+  color: rgba(0,0,0,0.87);
+}
+
+.right-nav .circle{
+  width: 40px;
+
+}
+
+.right-nav .bell {
+width: 20px;
+}
+
+.right-nav .menu{
+  width: 20px
+}
+
+.box-logo{
+  height: 233px;
+  display: block;
+  text-align: center;
+}
+
+.logo{
+  width: 272px;
+  text-align: center;
+  padding-top: 140px;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+}
+
+.search-border{
+  margin-top: 25px;
+  width: 584px;
+  height: 42px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  z-index: 3;
+}
+
+.search-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+}
+
+button.button-m {
+  background-color: inherit;
+  border: none;
+  margin-top: 5px;
+}
+
+.mic{
+  width: 15px;
+}
+
+
+
+input{
+border: none;
+height: 39px;
+width: 500px;
+margin: 0;
+padding: 0;
+font-size: 1em;
+}
+
+input:focus{
+  outline: none;
+}
+
+
+.search-border:hover{
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font: 400 13.3333px Arial;
+
+}
+
+.buttonnav{
+  display: flex;
+  height: 35px;
+  width: 280px;
+  justify-content: space-between;
+}
+
+.but1 {
+  font: 600 13.3333px Arial;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  font-family: arial;
+  font-size: 13px;
+  color: #757575;
+  padding: 0 15px;
+  border-radius: 2px;
+}
+
+.but1:hover{
+  color: black;
+  border: solid 1px #B8B5B6;
+}
+
+footer{
+    margin-top: 135px;
+    font-size: 0.95em;
+}
+.country{
+  display: block;
+  padding: 15px;
+  padding-left:25px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  color: #757575;
+}
+
+.footnav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.87em;
+  padding: 10px;
+  background-color: #f2f2f2;
+  color: #757575;
+}
+
+.footnav-l ul{
+  display: flex;
+  list-style: none;
+  width: 180px;
+  justify-content: space-around;
+  margin-bottom: 1px;
+  padding-top: 5px;
+
+}
+
+.footnav-r ul{
+  display: flex;
+  list-style: none;
+  width: 180px;
+  justify-content: space-between;
+  padding-right: 23px;
+  padding-top: 5px;
+
+}
